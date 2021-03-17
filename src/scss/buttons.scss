@@ -1,0 +1,81 @@
+@import  "../scss/_color";
+
+.vd-desc {font-size:14px; font-size:0.875rem; margin-bottom:0.875rem;}
+
+
+
+@mixin btn ($bgColor, $width, $height) {
+  display: inline-block;
+  text-align: center;
+  line-height:$height;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: $cl_white;
+
+  width: $width;
+  height:$height;
+  background-color:$bgColor;
+  &:hover {cursor:pointer;}
+
+}
+
+.bls-btn {
+  @include btn($btn_temp, $width:6.25rem, $height:36px);
+  margin-right:0.5rem;
+  &:last-child {margin-right:0;}
+  &:hover {background:$btn_temp_hover; }
+}
+.btn-main {
+  @include btn($btn_red, 201px, 43px);
+  font-weight:bold;
+  &:hover {background:rgba($cl_main_10,1);}
+  img {vertical-align: sub;margin-right:2px;}
+}
+.btn-starter {
+  @include btn($cl_main_20, 123px, 55px);
+  background-image: linear-gradient(to top, $btn_red, transparent);
+  font-weight:bold;
+  &:hover {
+    background:$btn_temp_point;
+    background-image: linear-gradient(to top, $btn_red, transparent)
+  }
+}
+
+.btn-gold {
+  @include btn($btn_gold, $width:6.25rem, $height:36px);
+  &:hover {background:$btn_gold_hover; }
+}
+.btn-red {
+  @include btn($btn_red, $width:6.25rem, $height:36px);
+  &:hover {background:$btn_red_hover; }
+}
+.btn-big {
+  $height: 82px;
+  height:$height;
+  line-height:$height;
+  width:88px;
+}
+
+.btn-more {
+  @include btn($btn_temp_point, 185px, 50px);
+  font-size:0.875rem;
+  &:hover {background:$btn_temp_point_hover}
+      span {
+          display: inline-block;
+          margin-left:0.125rem;
+          width:1rem; height:1rem; line-height:1rem;
+          background:$cl_white;
+          border-radius: 50%;
+          color:$btn_red;
+          font-weight:bold;
+      }
+}
+
+.btn-mb-wrap {}
+.btn-mb {
+  width:auto;
+  /*background:none;*/
+  background:rgba(0,0,0,0.6);
+  text-align: right;
+  img {margin-left:12px; margin-right:5px; vertical-align: middle;}
+}

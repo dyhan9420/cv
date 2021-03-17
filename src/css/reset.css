@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/* CSS RESET 초기화 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight:400;
+    font-style:normal;
+    line-height:1.4;
+}
+h1{font-style:normal;font-weight:700;}
+
+html{font-size: 16px;}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+
+nav ul, li{
+    list-style:none;
+}
+
+a{
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+
+img{
+    object-fit: cover;
+    vertical-align:top;
+}
+
+hr{
+    display:block;
+    height:2px;
+    border:0;
+    margin:0;
+    padding:0;
+}
+*, :before, :after {box-sizing: border-box;}
+
+input, select, textarea,
+input[type="submit" i],
+input[type="reset" i], input[type="file" i]::-webkit-file-upload-button
+{
+    display: inline-block;
+    box-sizing: border-box;
+    width:calc(100% - 2px);
+    margin:0 auto;
+    padding: 10px 20px;
+    border:0;
+    vertical-align:top;
+    font-size:16px;
+    /* font-family:'Notokr','Titillium Web',AppleSDGothicNeo,'Dotum',Sans-serif; */
+    font-weight:400;
+    font-style:normal;
+    text-align: center;
+    color:#fff;
+    background-color:#323338;
+    align-items: flex-start;
+    cursor: default;
+    /* appearance:none; */ /* w3c validator에 없음*/
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    -moz-transition: all .2s ease-in;-o-transition: all .2s ease-in;-webkit-transition: all .2s ease-in;transition: all .2s ease-in;
+}
+
+/*ie 크로스브라우징*/
+input[type="button"], input[type="button" i], button{
+    display: inline-block;
+    box-sizing: border-box;
+    width:auto;
+    margin:0;
+    padding: 9.5px 20px;
+    align-items: flex-start;
+    border:0;
+    vertical-align:top;
+    font-size:16px;
+    /* font-family:'Notokr','Titillium Web',AppleSDGothicNeo,'Dotum',Sans-serif; */
+    font-weight:400;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    background-color:#323338;
+    cursor: default;
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    -moz-transition: all .2s ease-in;-o-transition: all .2s ease-in;-webkit-transition: all .2s ease-in;transition: all .2s ease-in;
+}
+option{width:180px;height:43px;padding:1em;border-color:transparent;background:#323338;
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {display: none;}
+select{
+    width:180px;
+    height:43px;
+    padding:1em;
+    border:none;
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #323338 ;
+}
+select:focus{
+    width:180px;
+    height:43px;
+    border:none;
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #323338 ;
+}
+/* check, hover 스타일 설정 IE, Chrome */
+select option:checked,
+select option:hover {
+    background: #323338;
+    color: #fff;
+}
+/* check, hover 스타일 설정 FireFox */
+select option:checked,
+::placeholder{color:#fff !important;text-align:left;font-size:16px;font-size:1rem;}
+:-ms-input-placeholder{color:#fff !important;text-align:left;font-size:16px;font-size:1rem;}
+::-ms-input-placeholder{color:#fff !important;text-align:left;font-size:16px;font-size:1rem;}
+::-moz-input-placeholder, ::-moz-textarea-placeholder{color:#fff;text-align:left;font-size:16px;font-size:1rem;}
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{color:#fff;text-align:left;font-size:16px;font-size:1rem;}
+
+

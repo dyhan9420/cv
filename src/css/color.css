@@ -1,0 +1,140 @@
+/* //////////////////////////////////////////////////// */
+/* ///////////////////// BUTTON /////////////////////// */
+/* //////////////////////////////////////////////////// */
+/* layout */
+.dsp-i {
+  display: inline;
+  margin: 0;
+}
+
+.dsp-b {
+  display: block;
+}
+
+.dsp-ib {
+  display: inline-block;
+  margin: 0;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.33%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 16.66%;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* // layout */
+.swatch-wrap div {
+  padding: 1rem;
+}
+
+.swatch {
+  margin-bottom: 4px;
+}
+
+/*.main-bg {background-color:$cl_main_bg;}
+.card-bg {background-color:$cl_card_bg;}*/
+.main-bg {
+  background-color: #0a0e1e;
+}
+
+.card-bg {
+  background-color: #222639;
+}
+
+.main-300 {
+  background-color: #f06767;
+}
+
+.main-400 {
+  background-color: #ff5252;
+}
+
+.main-700 {
+  background-color: #b45454;
+}
+
+.main-900 {
+  background-color: #a93939;
+}
+
+.sub-300 {
+  background-color: #dd9e74;
+}
+
+.sub-400 {
+  background-color: #c59b65;
+}
+
+.sub-700 {
+  background-color: #9f7644;
+}
+
+.sub-900 {
+  background-color: #714829;
+}
+
+.grey-100 {
+  background-color: #f3f3f3;
+}
+
+.grey-200 {
+  background-color: #b8bec9;
+}
+
+.grey-300 {
+  background-color: #b3b3b3;
+}
+
+.grey-400 {
+  background-color: #939393;
+}
+
+.grey-500 {
+  background-color: #707070;
+}
+
+.grey-600 {
+  background-color: #464646;
+}
+
+.grey-700 {
+  background-color: #252525;
+}
+
+.white {
+  color: #fff;
+}
