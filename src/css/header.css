@@ -1,7 +1,14 @@
 @charset "UTF-8";
 /* 나중에 layout 으로 뺄 css */
+.clearfix{clear:both;}
+.clearfix:before,
+.clearfix:after {content: " ";display: table;clear: both;}
+.pull-left {float:left;}
+.pull-right {float:right;}
+img {max-width:100%;}
 body {background:rgba(0,0,0,0.07);}
 #content {padding:4rem;}
+.wrap-box {margin:0.5rem 0; background:#fff; box-shadow:0 0 5px 0 rgba(0,0,0,0.2);}
 .ml-300 {margin-left:300px;}
 .code-box {display:block; margin:1rem 0; padding: 1rem; background:#fff; border-radius:4px; line-height: 2;}
 .code-box .tn {color: #4f73a3}
@@ -13,6 +20,6 @@ body {background:rgba(0,0,0,0.07);}
 
 
 ul ul {text-indent:1rem;}
-header {position:fixed; top:0; left:0; width:300px; height:100vh; padding:1rem; background:#fff; box-sizing:border-box;}
-header li:hover {cursor:pointer;}
+header {position:fixed; top:0; left:0; width:300px; height:100vh; padding:1rem; background:#1B1C1D; box-sizing:border-box; color:#8c8c8c;}
+header li li:hover {cursor:pointer;color:#fff;}
 

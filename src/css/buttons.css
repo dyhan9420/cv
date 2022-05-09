@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .btn-main:hover {
-  background: #f06767;
+  background: #448cef;
 }
 .btn-main img {
   vertical-align: sub;
@@ -61,7 +61,7 @@
   color: #fff;
   width: 123px;
   height: 55px;
-  background-color: #ff5252;
+  background-color: #3b7fde;
   background-image: linear-gradient(to top, #ae3e3e, transparent);
   font-weight: bold;
 }

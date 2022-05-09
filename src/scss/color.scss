@@ -28,22 +28,23 @@
 
 
 .swatch-wrap div {padding:1rem;}
-.swatch {margin-bottom:4px;}
 
 /*.main-bg {background-color:$cl_main_bg;}
 .card-bg {background-color:$cl_card_bg;}*/
 .main-bg {background-color:$cl_main_bg;}
 .card-bg {background-color:$cl_card22_bg;}
 
-.main-300 {background-color: $cl_main_10;}
-.main-400 {background-color: $cl_main_20;}
-.main-700 {background-color: $cl_main_30;}
-.main-900 {background-color: $cl_main_40;}
+.cl-null {background-color: rgba(0,0,0,0.07);}
 
-.sub-300 {background-color:$cl_sub_10;}
-.sub-400 {background-color:$cl_sub_20;}
-.sub-700 {background-color:$cl_sub_30;}
-.sub-900 {background-color:$cl_sub_40;}
+.main-10 {background-color: $cl_main_10;}
+.main-20 {background-color: $cl_main_20;}
+.main-30 {background-color: $cl_main_30;}
+.main-40 {background-color: $cl_main_40;}
+
+.sub-10 {background-color:$cl_sub_10;}
+.sub-20 {background-color:$cl_sub_20;}
+.sub-30 {background-color:$cl_sub_30;}
+.sub-40 {background-color:$cl_sub_40;}
 
 
 .grey-100 {background-color:$cl_grey_100;}

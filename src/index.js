@@ -14,7 +14,7 @@ ReactDOM.render(
         <div id="wrapper">
             <Header />
             <div id="content" className="ml-300">
-                <Buttons />
+                {/*<Buttons />*/}
             </div>
         </div>
 
